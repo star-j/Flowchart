@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-04T07:07:02.014Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="JLfcb3qv4M4Gqh0J1Yti" version="14.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-04T07:08:00.978Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="plt-zbEs5-w_8H-lt5cR" version="14.9.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="974" dy="894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -154,9 +154,6 @@
               <mxPoint x="530" y="170" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="Md4piqNgcGMEt9OnkXE3-59" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34; ; color: rgba(0 , 0 , 0 , 0.85)&quot;&gt;addedLists为双指针，里面元素是指针，指向方法/属性/协议列表&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="750" y="330" width="200" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
