@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T08:10:56.224Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="PPP7fkU6HwZ37Nvx7JZ_" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-07T08:19:57.302Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="xlGeZAenmTJyxfJGIqMz" version="16.2.2" type="github">
   <diagram id="6XFbxVQVuKEcNsSUs57a" name="Page-1">
     <mxGraphModel dx="830" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -124,8 +124,14 @@
         <mxCell id="fM-EarZWubq1FICwGO90-285" value="params_change &lt;br&gt;||&amp;nbsp;first_request &lt;br&gt;|| time_out&lt;br&gt;（频率限制）" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1680" y="535" width="212.5" height="130" as="geometry" />
         </mxCell>
+        <mxCell id="fM-EarZWubq1FICwGO90-293" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="fM-EarZWubq1FICwGO90-289" target="fM-EarZWubq1FICwGO90-292">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-289" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;InnerObserverHolder&amp;lt;NoticeResult&amp;gt;::CommitToTaskQueue&lt;/p&gt;" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1250" y="570" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fM-EarZWubq1FICwGO90-292" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34; ; color: rgba(0 , 0 , 0 , 0.85) ; background-color: rgb(255 , 255 , 255)&quot;&gt;dispatch_to_mainthread_&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="555" width="220" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
