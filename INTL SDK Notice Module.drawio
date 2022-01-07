@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T10:51:51.713Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="vDeIuEtebQAk3Jy-PI-_" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-07T11:03:21.423Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="AfP5QN-7HyYCgSN75dLY" version="16.2.2" type="github">
   <diagram id="6XFbxVQVuKEcNsSUs57a" name="Page-1">
     <mxGraphModel dx="830" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -84,8 +84,11 @@
         <mxCell id="fM-EarZWubq1FICwGO90-30" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;HttpParams::HttpParams()&lt;/p&gt;" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1696.25" y="735" width="180" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="fM-EarZWubq1FICwGO90-327" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="fM-EarZWubq1FICwGO90-32" target="fM-EarZWubq1FICwGO90-289">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-32" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;回调一：NoticeManager::OnNoticeDataResponse()（&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;req_callback_&lt;/span&gt;）&lt;/p&gt;" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2246.11" y="735" width="310" height="60" as="geometry" />
+          <mxGeometry x="1110.0000000000002" y="735" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-280" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="fM-EarZWubq1FICwGO90-36" target="fM-EarZWubq1FICwGO90-279">
           <mxGeometry relative="1" as="geometry" />
@@ -102,17 +105,16 @@
         <mxCell id="fM-EarZWubq1FICwGO90-279" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;HTTPManager::RunRequest()&lt;/p&gt;" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1691.25" y="1015" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fM-EarZWubq1FICwGO90-283" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="1" source="fM-EarZWubq1FICwGO90-281">
+        <mxCell id="fM-EarZWubq1FICwGO90-283" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;entryX=0.777;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fM-EarZWubq1FICwGO90-281" target="fM-EarZWubq1FICwGO90-32">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2350" y="795" as="targetPoint" />
+            <mxPoint x="1350" y="810" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2350" y="1045" />
-              <mxPoint x="2350" y="795" />
+              <mxPoint x="1351" y="1045" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-281" value="timeout" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2100" y="1005" width="80" height="80" as="geometry" />
+          <mxGeometry x="1490" y="1005" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-287" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="fM-EarZWubq1FICwGO90-285" target="fM-EarZWubq1FICwGO90-30">
           <mxGeometry relative="1" as="geometry" />
@@ -179,7 +181,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-304" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;回调一：同上&lt;/p&gt;&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;回调二：HTTPManager::OnHTTPClientCallBack()（&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;callback_client_&lt;/span&gt;）&lt;/p&gt;" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2246.12" y="1160" width="309.99" height="60" as="geometry" />
+          <mxGeometry x="1110" y="1160" width="309.99" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-311" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="fM-EarZWubq1FICwGO90-308" target="fM-EarZWubq1FICwGO90-310">
           <mxGeometry relative="1" as="geometry" />
@@ -200,10 +202,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-312" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;HTTPClient::CreateRequestThread()&lt;/p&gt;" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1976.26" y="1285" width="234.99" height="60" as="geometry" />
+          <mxGeometry x="1366.26" y="1285" width="234.99" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fM-EarZWubq1FICwGO90-319" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="fM-EarZWubq1FICwGO90-314" target="fM-EarZWubq1FICwGO90-304">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="fM-EarZWubq1FICwGO90-319" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fM-EarZWubq1FICwGO90-314" target="fM-EarZWubq1FICwGO90-304">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2030" y="1720" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-314" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;HTTPClient::SendJsonPostRequest()&lt;/p&gt;" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1664.39" y="1694" width="243.73" height="60" as="geometry" />
@@ -212,13 +216,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-320" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;ThreadPool::CommitTask()&lt;/p&gt;" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2005.01" y="1420" width="177.49" height="60" as="geometry" />
+          <mxGeometry x="1395.01" y="1420" width="177.49" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fM-EarZWubq1FICwGO90-325" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="fM-EarZWubq1FICwGO90-322" target="fM-EarZWubq1FICwGO90-310">
+        <mxCell id="fM-EarZWubq1FICwGO90-325" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="fM-EarZWubq1FICwGO90-322" target="fM-EarZWubq1FICwGO90-310">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-322" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;HTTPClient::CreateRequestThreadCallBack&lt;/p&gt;" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1950" y="1550" width="287.5" height="60" as="geometry" />
+          <mxGeometry x="1340" y="1550" width="287.5" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
