@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T07:47:42.798Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="E7Gl__Uq1kqvPxZ97jnv" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-07T08:10:56.224Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="PPP7fkU6HwZ37Nvx7JZ_" version="16.2.2" type="github">
   <diagram id="6XFbxVQVuKEcNsSUs57a" name="Page-1">
     <mxGraphModel dx="830" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,25 +50,25 @@
           <mxGeometry x="340" y="30" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-24" value="请求公告数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="30" width="130" height="50" as="geometry" />
+          <mxGeometry x="1766.25" y="25" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="fM-EarZWubq1FICwGO90-25" target="fM-EarZWubq1FICwGO90-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-25" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;Notice::RequestData()&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="140" width="180" height="60" as="geometry" />
+          <mxGeometry x="1696.25" y="135" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="fM-EarZWubq1FICwGO90-26" target="fM-EarZWubq1FICwGO90-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-26" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;CheckBeforeExecute()&lt;/p&gt;" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1005" y="280" width="170" height="60" as="geometry" />
+          <mxGeometry x="1701.25" y="275" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-286" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="fM-EarZWubq1FICwGO90-28" target="fM-EarZWubq1FICwGO90-285">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-28" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;NoticeManager::LoadData()&lt;/p&gt;" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="995" y="420" width="190" height="60" as="geometry" />
+          <mxGeometry x="1691.25" y="415" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="fM-EarZWubq1FICwGO90-30" target="fM-EarZWubq1FICwGO90-32">
           <mxGeometry relative="1" as="geometry" />
@@ -82,22 +82,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-30" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;HttpParams::HttpParams()&lt;/p&gt;" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="740" width="180" height="60" as="geometry" />
+          <mxGeometry x="1696.25" y="735" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-32" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;NoticeManager::OnNoticeDataResponse()&lt;/p&gt;" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="740" width="310" height="60" as="geometry" />
+          <mxGeometry x="1986.25" y="735" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-280" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="fM-EarZWubq1FICwGO90-36" target="fM-EarZWubq1FICwGO90-279">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-36" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;HTTPManager::Request()&lt;/p&gt;" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1005" y="880" width="170" height="60" as="geometry" />
+          <mxGeometry x="1701.25" y="875" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-282" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="fM-EarZWubq1FICwGO90-279" target="fM-EarZWubq1FICwGO90-281">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-279" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;HTTPManager::RunRequest()&lt;/p&gt;" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="995" y="1020" width="190" height="60" as="geometry" />
+          <mxGeometry x="1691.25" y="1015" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-283" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="fM-EarZWubq1FICwGO90-281" target="fM-EarZWubq1FICwGO90-32">
           <mxGeometry relative="1" as="geometry" />
@@ -108,7 +108,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-281" value="timeout" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="1010" width="80" height="80" as="geometry" />
+          <mxGeometry x="1986.25" y="1005" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-287" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="fM-EarZWubq1FICwGO90-285" target="fM-EarZWubq1FICwGO90-30">
           <mxGeometry relative="1" as="geometry" />
@@ -122,10 +122,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-285" value="params_change &lt;br&gt;||&amp;nbsp;first_request &lt;br&gt;|| time_out&lt;br&gt;（频率限制）" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="983.75" y="540" width="212.5" height="130" as="geometry" />
+          <mxGeometry x="1680" y="535" width="212.5" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="fM-EarZWubq1FICwGO90-289" value="" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1315" y="570" width="120" height="60" as="geometry" />
+        <mxCell id="fM-EarZWubq1FICwGO90-289" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;InnerObserverHolder&amp;lt;NoticeResult&amp;gt;::CommitToTaskQueue&lt;/p&gt;" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="570" width="390" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
