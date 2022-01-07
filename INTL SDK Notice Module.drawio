@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T02:26:37.083Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="3UnNQAWui_8cB86rXOgd" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-07T02:31:15.704Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="4IO6iebiPdV8Aj9Ppl3X" version="16.2.2" type="github">
   <diagram id="6XFbxVQVuKEcNsSUs57a" name="Page-1">
     <mxGraphModel dx="830" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,8 +22,20 @@
         <mxCell id="fM-EarZWubq1FICwGO90-6" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;InnerObserverHolder&amp;lt;NoticeResult&amp;gt;::CacheObserver&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="87.5" y="390" width="335" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="fM-EarZWubq1FICwGO90-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fM-EarZWubq1FICwGO90-12" target="fM-EarZWubq1FICwGO90-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-12" value="&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; ; font-size: 13px&quot;&gt;Notice::NoticeRetObserver&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="390" width="180" height="60" as="geometry" />
+          <mxGeometry x="500" y="390" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fM-EarZWubq1FICwGO90-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fM-EarZWubq1FICwGO90-14" target="fM-EarZWubq1FICwGO90-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fM-EarZWubq1FICwGO90-14" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;MyObserver::OnNoticeResultNotify&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="525" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fM-EarZWubq1FICwGO90-16" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;MyObserver::HandleNotify&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="670" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
