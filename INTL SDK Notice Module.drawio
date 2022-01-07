@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T09:59:16.090Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="lB6GMJCFT5aRrq2DmnGE" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-07T10:01:02.342Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="nVRoX8DWaNsKltkaRR4x" version="16.2.2" type="github">
   <diagram id="6XFbxVQVuKEcNsSUs57a" name="Page-1">
     <mxGraphModel dx="830" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -171,7 +171,10 @@
         <mxCell id="fM-EarZWubq1FICwGO90-302" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;HTTPClient::Request&lt;/p&gt;" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1709.39" y="1260" width="153.75" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fM-EarZWubq1FICwGO90-304" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;回调一：&lt;/p&gt;&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;回调二：HTTPManager::OnHTTPClientCallBack()（&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;callback_client_&lt;/span&gt;）&lt;/p&gt;" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
+        <mxCell id="fM-EarZWubq1FICwGO90-307" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="fM-EarZWubq1FICwGO90-304" target="fM-EarZWubq1FICwGO90-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fM-EarZWubq1FICwGO90-304" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;回调一：同上&lt;/p&gt;&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;回调二：HTTPManager::OnHTTPClientCallBack()（&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;callback_client_&lt;/span&gt;）&lt;/p&gt;" style="whiteSpace=wrap;html=1;fontSize=15;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1986.26" y="1260" width="309.99" height="60" as="geometry" />
         </mxCell>
       </root>
