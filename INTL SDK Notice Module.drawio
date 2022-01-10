@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-01-10T02:35:00.713Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="s19ErCpW0sNKUP9B3fOX" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-10T03:09:11.213Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15" etag="ksRnBvUWSGFMsU4xJzza" version="16.2.2" type="github">
   <diagram id="6XFbxVQVuKEcNsSUs57a" name="Page-1">
-    <mxGraphModel dx="3887" dy="3326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2969" dy="2679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9o9Hv40ZOTva89XY0RwB-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="720" y="-300" width="1330" height="2200" as="geometry" />
+          <mxGeometry x="720" y="-710" width="1330" height="2610" as="geometry" />
         </mxCell>
         <mxCell id="9o9Hv40ZOTva89XY0RwB-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="720" y="60" width="1220" height="1730" as="geometry" />
         </mxCell>
         <mxCell id="9o9Hv40ZOTva89XY0RwB-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="-300" width="830" height="2200" as="geometry" />
+          <mxGeometry x="-110" y="-710" width="830" height="2610" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-23" value="" style="group;fillColor=#fff2cc;strokeColor=#d6b656;container=0;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-20" y="60" width="740" height="1730" as="geometry" />
@@ -29,16 +29,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-14" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;MyObserver::OnNoticeResultNotify()&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="422" y="-50" width="240" height="60" as="geometry" />
+          <mxGeometry x="422" y="-510" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-16" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;MyObserver::HandleNotify()&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="447" y="-150" width="190" height="60" as="geometry" />
+          <mxGeometry x="447" y="-610" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-22" value="设置公告观察者" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" parent="1" vertex="1">
-          <mxGeometry x="200" y="-300" width="260" height="80" as="geometry" />
+          <mxGeometry x="200" y="-690" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-24" value="请求公告数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" parent="1" vertex="1">
-          <mxGeometry x="1300" y="-300" width="260" height="80" as="geometry" />
+          <mxGeometry x="1310" y="-690" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="1" source="fM-EarZWubq1FICwGO90-25" target="fM-EarZWubq1FICwGO90-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -216,7 +216,7 @@
           <mxGeometry x="810" y="95" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-1" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;NoticeViewController&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="118.5" y="-50" width="150" height="60" as="geometry" />
+          <mxGeometry x="118.5" y="-510" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-2" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;Notice::SetNoticeObserver()&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="101" y="250" width="185" height="60" as="geometry" />
@@ -229,6 +229,9 @@
         </mxCell>
         <mxCell id="fM-EarZWubq1FICwGO90-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fM-EarZWubq1FICwGO90-2" target="fM-EarZWubq1FICwGO90-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9o9Hv40ZOTva89XY0RwB-7" value="&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;set_notice_observer_adapter&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=30;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="26" y="-190" width="204" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
