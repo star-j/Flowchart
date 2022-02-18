@@ -1,11 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2022-02-18T03:52:18.451Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="ky7RtfS2E-eki9W2xER7" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-18T07:54:25.996Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="tRCKccsSNnhx9l6GUrP-" version="16.5.3" type="github">
   <diagram id="pVmP_ZlypJW5fgTROmLy" name="Page-1">
     <mxGraphModel dx="924" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YaLD1JXw7uaXsb9LfMqk-1" value="INTLVideoAPI（INTLVideoAPI.cs）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="120" width="240" height="60" as="geometry" />
+        <mxCell id="YaLD1JXw7uaXsb9LfMqk-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="YaLD1JXw7uaXsb9LfMqk-4" target="YaLD1JXw7uaXsb9LfMqk-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YaLD1JXw7uaXsb9LfMqk-4" value="INTLVideoAPI（INTLVideoAPI.cs）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="130" y="370" width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="YaLD1JXw7uaXsb9LfMqk-5" value="InitSDK(...)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" vertex="1" parent="YaLD1JXw7uaXsb9LfMqk-4">
+          <mxGeometry y="30" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YaLD1JXw7uaXsb9LfMqk-6" value="StartMomentsRecord()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" vertex="1" parent="YaLD1JXw7uaXsb9LfMqk-4">
+          <mxGeometry y="60" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YaLD1JXw7uaXsb9LfMqk-7" value="StopMomentsRecord()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" vertex="1" parent="YaLD1JXw7uaXsb9LfMqk-4">
+          <mxGeometry y="90" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YaLD1JXw7uaXsb9LfMqk-8" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" vertex="1" parent="YaLD1JXw7uaXsb9LfMqk-4">
+          <mxGeometry y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YaLD1JXw7uaXsb9LfMqk-9" value="INTLVideo（INTLVideo.cs）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="130" y="570" width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="YaLD1JXw7uaXsb9LfMqk-10" value="Init()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" vertex="1" parent="YaLD1JXw7uaXsb9LfMqk-9">
+          <mxGeometry y="30" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YaLD1JXw7uaXsb9LfMqk-11" value="StartMomentRecord()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" vertex="1" parent="YaLD1JXw7uaXsb9LfMqk-9">
+          <mxGeometry y="60" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YaLD1JXw7uaXsb9LfMqk-12" value="StopMomentRecord()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" vertex="1" parent="YaLD1JXw7uaXsb9LfMqk-9">
+          <mxGeometry y="90" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YaLD1JXw7uaXsb9LfMqk-13" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" vertex="1" parent="YaLD1JXw7uaXsb9LfMqk-9">
+          <mxGeometry y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YaLD1JXw7uaXsb9LfMqk-15" value="C#调用C++ adapter接口，&lt;br&gt;比如：intl_video_start_moment_record" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="142.5" y="760" width="285" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
