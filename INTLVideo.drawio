@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-18T09:12:29.708Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="XpF0CjR5y1E6WAORWVht" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-18T09:37:59.150Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="MT6ZHSaKjzFin5HMfHBC" version="16.5.3" type="github">
   <diagram id="pVmP_ZlypJW5fgTROmLy" name="Page-1">
     <mxGraphModel dx="794" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -100,11 +100,17 @@
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-37" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" vertex="1" parent="YaLD1JXw7uaXsb9LfMqk-33">
           <mxGeometry y="120" width="350" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="YaLD1JXw7uaXsb9LfMqk-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="YaLD1JXw7uaXsb9LfMqk-41" target="YaLD1JXw7uaXsb9LfMqk-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-41" value="&lt;span&gt;定义好接口，不同平台有不同的实现，比如编译iOS时，就回编译intl_video_impl_ios.cpp&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontStyle=0;startSize=30;" vertex="1" parent="1">
           <mxGeometry x="145" y="1480" width="250" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="YaLD1JXw7uaXsb9LfMqk-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="YaLD1JXw7uaXsb9LfMqk-49" target="YaLD1JXw7uaXsb9LfMqk-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-49" value="VideoIMPL（intl_video_impl_ios.cpp）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="480" y="1580" width="350" height="150" as="geometry" />
+          <mxGeometry x="490" y="1610" width="350" height="150" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-50" value="Init(...)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" vertex="1" parent="YaLD1JXw7uaXsb9LfMqk-49">
           <mxGeometry y="30" width="350" height="30" as="geometry" />
@@ -116,6 +122,27 @@
           <mxGeometry y="90" width="350" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-53" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" vertex="1" parent="YaLD1JXw7uaXsb9LfMqk-49">
+          <mxGeometry y="120" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YaLD1JXw7uaXsb9LfMqk-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YaLD1JXw7uaXsb9LfMqk-55" target="YaLD1JXw7uaXsb9LfMqk-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YaLD1JXw7uaXsb9LfMqk-55" value="C++调用OC接口" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontStyle=0;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="587.5" y="1810" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YaLD1JXw7uaXsb9LfMqk-57" value="VideoIMPL（intl_video_impl_ios.cpp）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1920" width="350" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="YaLD1JXw7uaXsb9LfMqk-58" value="Init(...)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" vertex="1" parent="YaLD1JXw7uaXsb9LfMqk-57">
+          <mxGeometry y="30" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YaLD1JXw7uaXsb9LfMqk-59" value="StartMomentRecord()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" vertex="1" parent="YaLD1JXw7uaXsb9LfMqk-57">
+          <mxGeometry y="60" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YaLD1JXw7uaXsb9LfMqk-60" value="StopMomentRecord()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" vertex="1" parent="YaLD1JXw7uaXsb9LfMqk-57">
+          <mxGeometry y="90" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YaLD1JXw7uaXsb9LfMqk-61" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" vertex="1" parent="YaLD1JXw7uaXsb9LfMqk-57">
           <mxGeometry y="120" width="350" height="30" as="geometry" />
         </mxCell>
       </root>
