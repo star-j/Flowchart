@@ -1,17 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T06:24:55.205Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="qWKa2bl6M3iKguG9YkSw" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-21T07:22:18.452Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="I8lKHdH2K7I0TSA0KccM" version="16.5.3" type="github">
   <diagram id="pVmP_ZlypJW5fgTROmLy" name="Page-1">
-    <mxGraphModel dx="794" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2415" dy="2679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JUx5jzB8KOMg5DZ55unH-5" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="510" width="670" height="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="JUx5jzB8KOMg5DZ55unH-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="30" y="530" width="2350" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="JUx5jzB8KOMg5DZ55unH-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="30" y="860" width="2350" height="380" as="geometry" />
+        </mxCell>
         <mxCell id="JUx5jzB8KOMg5DZ55unH-7" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="294" y="1590" width="1206" height="940" as="geometry" />
         </mxCell>
-        <mxCell id="JUx5jzB8KOMg5DZ55unH-5" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="70" y="860" width="590" height="700" as="geometry" />
-        </mxCell>
         <mxCell id="JUx5jzB8KOMg5DZ55unH-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="290" width="530" height="570" as="geometry" />
+          <mxGeometry x="70" y="-90" width="530" height="570" as="geometry" />
         </mxCell>
         <mxCell id="JUx5jzB8KOMg5DZ55unH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JUx5jzB8KOMg5DZ55unH-1" target="YaLD1JXw7uaXsb9LfMqk-112">
           <mxGeometry relative="1" as="geometry" />
@@ -23,7 +29,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-4" value="INTLVideoAPI（.cs）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="130" y="370" width="280" height="150" as="geometry" />
+          <mxGeometry x="130" y="-10" width="280" height="150" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-5" value="InitSDK(...)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" parent="YaLD1JXw7uaXsb9LfMqk-4" vertex="1">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
@@ -41,7 +47,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-9" value="INTLVideo（.cs）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="130" y="570" width="280" height="150" as="geometry" />
+          <mxGeometry x="130" y="190" width="280" height="150" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-10" value="Init()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" parent="YaLD1JXw7uaXsb9LfMqk-9" vertex="1">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
@@ -59,7 +65,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-19" value="intl_video_unity_adapter（.h、.cpp）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="130" y="880" width="280" height="150" as="geometry" />
+          <mxGeometry x="130" y="560" width="280" height="150" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-20" value="intl_video_init(...)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" parent="YaLD1JXw7uaXsb9LfMqk-19" vertex="1">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
@@ -77,13 +83,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-24" value="&lt;span&gt;C#调用C++ adapter接口，&lt;/span&gt;&lt;br&gt;&lt;span&gt;比如：&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;StartMomentRecord()就是调用&lt;/span&gt;&lt;span&gt;&lt;br&gt;intl_video_start_moment_record()&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="125" y="770" width="290" height="60" as="geometry" />
+          <mxGeometry x="125" y="390" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="YaLD1JXw7uaXsb9LfMqk-27" target="YaLD1JXw7uaXsb9LfMqk-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-27" value="VideoManager（intl_video_manager.h、.cpp）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="95" y="1080" width="350" height="150" as="geometry" />
+          <mxGeometry x="95" y="900" width="350" height="150" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-28" value="Init(...)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" parent="YaLD1JXw7uaXsb9LfMqk-27" vertex="1">
           <mxGeometry y="30" width="350" height="30" as="geometry" />
@@ -239,13 +245,34 @@
           <mxGeometry x="749" y="2430" width="292" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JUx5jzB8KOMg5DZ55unH-4" value="Unity游戏内" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="70" y="290" width="120" height="40" as="geometry" />
+          <mxGeometry x="70" y="-90" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JUx5jzB8KOMg5DZ55unH-6" value="C++通用层，&lt;br&gt;游戏直接调用" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="460" y="870" width="120" height="40" as="geometry" />
+          <mxGeometry x="-10" y="510" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JUx5jzB8KOMg5DZ55unH-8" value="VideoManager::AddVideoMessage&lt;br&gt;（intl_video_manager.cpp）" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="JUx5jzB8KOMg5DZ55unH-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="JUx5jzB8KOMg5DZ55unH-8" target="JUx5jzB8KOMg5DZ55unH-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JUx5jzB8KOMg5DZ55unH-8" value="VideoManager::AddVideoMessage&lt;br&gt;（intl_video_manager.cpp）&lt;br&gt;添加消息到队列" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="1600" y="1125" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JUx5jzB8KOMg5DZ55unH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="JUx5jzB8KOMg5DZ55unH-10" target="JUx5jzB8KOMg5DZ55unH-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JUx5jzB8KOMg5DZ55unH-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="JUx5jzB8KOMg5DZ55unH-10" target="JUx5jzB8KOMg5DZ55unH-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JUx5jzB8KOMg5DZ55unH-10" value="VideoManager::HandleVideoMessage&lt;br&gt;（intl_video_manager.cpp）&lt;br&gt;添加消息到队列" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="920" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JUx5jzB8KOMg5DZ55unH-12" value="执行videoObserver_-&amp;gt;OnVideoMessageNotify&lt;br&gt;实际为INTLVideoUnityBridge的SendToUnity" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="1020" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JUx5jzB8KOMg5DZ55unH-14" value="消息队列" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JUx5jzB8KOMg5DZ55unH-18" value="intl_video_msg_update" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="585" width="280" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
