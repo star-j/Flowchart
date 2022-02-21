@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T03:48:42.605Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="-9OzHmLoT8gpYCimA8TC" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-21T06:08:34.847Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="mmgbnOSwu2mHSZRkkbS1" version="16.5.3" type="github">
   <diagram id="pVmP_ZlypJW5fgTROmLy" name="Page-1">
-    <mxGraphModel dx="1588" dy="1510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -225,6 +225,16 @@
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-110" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" parent="YaLD1JXw7uaXsb9LfMqk-106" vertex="1">
           <mxGeometry y="90" width="230" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="JUx5jzB8KOMg5DZ55unH-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=15;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YaLD1JXw7uaXsb9LfMqk-112" target="JUx5jzB8KOMg5DZ55unH-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1820" y="1500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="895" y="2570" />
+              <mxPoint x="1740" y="2570" />
+              <mxPoint x="1740" y="1350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-112" value="事件、状态回调&lt;br&gt;比如开始播放，播放完成，开始录制等" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="749" y="2430" width="292" height="60" as="geometry" />
         </mxCell>
@@ -233,6 +243,9 @@
         </mxCell>
         <mxCell id="JUx5jzB8KOMg5DZ55unH-6" value="C++通用层，&lt;br&gt;游戏直接调用" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="460" y="870" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JUx5jzB8KOMg5DZ55unH-8" value="VideoManager::AddVideoMessage()" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="1290" width="280" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
