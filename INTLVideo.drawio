@@ -1,14 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T02:43:34.515Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="8gYY59n1jY6Rh2Kf_onn" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-21T03:48:42.605Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="-9OzHmLoT8gpYCimA8TC" version="16.5.3" type="github">
   <diagram id="pVmP_ZlypJW5fgTROmLy" name="Page-1">
-    <mxGraphModel dx="794" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1588" dy="1510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JUx5jzB8KOMg5DZ55unH-7" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="294" y="1590" width="1206" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="JUx5jzB8KOMg5DZ55unH-5" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="70" y="860" width="590" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="JUx5jzB8KOMg5DZ55unH-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="290" width="530" height="570" as="geometry" />
+        </mxCell>
         <mxCell id="JUx5jzB8KOMg5DZ55unH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JUx5jzB8KOMg5DZ55unH-1" target="YaLD1JXw7uaXsb9LfMqk-112">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JUx5jzB8KOMg5DZ55unH-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="2129" width="1090" height="248" as="geometry" />
+          <mxGeometry x="350" y="2129" width="1090" height="248" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="1" source="YaLD1JXw7uaXsb9LfMqk-4" target="YaLD1JXw7uaXsb9LfMqk-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -116,7 +125,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-49" value="VideoIMPL（intl_video_impl_ios.cpp）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="490" y="1610" width="350" height="150" as="geometry" />
+          <mxGeometry x="720" y="1610" width="350" height="150" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-50" value="Init(...)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" parent="YaLD1JXw7uaXsb9LfMqk-49" vertex="1">
           <mxGeometry y="30" width="350" height="30" as="geometry" />
@@ -134,14 +143,14 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-55" value="C++调用OC接口" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontStyle=0;startSize=30;" parent="1" vertex="1">
-          <mxGeometry x="587.5" y="1810" width="155" height="60" as="geometry" />
+          <mxGeometry x="817.5" y="1810" width="155" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="1" source="YaLD1JXw7uaXsb9LfMqk-57" target="YaLD1JXw7uaXsb9LfMqk-63" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="YaLD1JXw7uaXsb9LfMqk-57" target="YaLD1JXw7uaXsb9LfMqk-69" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="540" y="2150" as="targetPoint" />
+            <mxPoint x="770" y="2150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="1" source="YaLD1JXw7uaXsb9LfMqk-57" target="YaLD1JXw7uaXsb9LfMqk-81" edge="1">
@@ -151,7 +160,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-57" value="INTLVideoManager（.h、.m）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="505" y="1920" width="320" height="150" as="geometry" />
+          <mxGeometry x="735" y="1920" width="320" height="150" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-58" value="- initWithAppID:authBuffer:appRegion:openID:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" parent="YaLD1JXw7uaXsb9LfMqk-57" vertex="1">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
@@ -166,7 +175,7 @@
           <mxGeometry y="120" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-63" value="INTLVideoPlayer（.h、.m）&#xa;直播、点播、本地视频播放器" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="170.5" y="2168" width="226" height="170" as="geometry" />
+          <mxGeometry x="400.5" y="2168" width="226" height="170" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-64" value="- initPlayer:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" parent="YaLD1JXw7uaXsb9LfMqk-63" vertex="1">
           <mxGeometry y="50" width="226" height="30" as="geometry" />
@@ -181,7 +190,7 @@
           <mxGeometry y="140" width="226" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-69" value="INTLVideoMoment（.h、.m）&#xa;传说时刻录制" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="430.5" y="2168" width="210" height="140" as="geometry" />
+          <mxGeometry x="660.5" y="2168" width="210" height="140" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-71" value="- startRecord:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" parent="YaLD1JXw7uaXsb9LfMqk-69" vertex="1">
           <mxGeometry y="50" width="210" height="30" as="geometry" />
@@ -193,7 +202,7 @@
           <mxGeometry y="110" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-81" value="PlayerViewController（.h、.m）&#xa;全屏视频播放页面" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="930.5" y="2168" width="229" height="140" as="geometry" />
+          <mxGeometry x="1160.5" y="2168" width="229" height="140" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-83" value="videoContainer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" parent="YaLD1JXw7uaXsb9LfMqk-81" vertex="1">
           <mxGeometry y="50" width="229" height="30" as="geometry" />
@@ -205,7 +214,7 @@
           <mxGeometry y="110" width="229" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-106" value="INTLVideoFileStorage（.h、.m）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="670.5" y="2168" width="230" height="120" as="geometry" />
+          <mxGeometry x="900.5" y="2168" width="230" height="120" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-107" value="- saveVideoInfo:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=15;" parent="YaLD1JXw7uaXsb9LfMqk-106" vertex="1">
           <mxGeometry y="30" width="230" height="30" as="geometry" />
@@ -217,7 +226,13 @@
           <mxGeometry y="90" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YaLD1JXw7uaXsb9LfMqk-112" value="事件、状态回调&lt;br&gt;比如开始播放，播放完成，开始录制等" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="519" y="2430" width="292" height="60" as="geometry" />
+          <mxGeometry x="749" y="2430" width="292" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JUx5jzB8KOMg5DZ55unH-4" value="Unity游戏内" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="70" y="290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JUx5jzB8KOMg5DZ55unH-6" value="C++通用层，&lt;br&gt;游戏直接调用" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="460" y="870" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
