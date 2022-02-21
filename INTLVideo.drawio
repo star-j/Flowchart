@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T11:15:01.936Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="HhtHz38iYZ9n6KYowXef" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-21T11:17:51.211Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="Yr4Tg8JOb2QkXKMa9TL-" version="16.5.3" type="github">
   <diagram id="pVmP_ZlypJW5fgTROmLy" name="Page-1">
-    <mxGraphModel dx="2415" dy="2679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1621" dy="1924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -419,6 +419,11 @@
               <mxPoint x="2420" y="1320" />
               <mxPoint x="1660" y="1320" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JUx5jzB8KOMg5DZ55unH-99" value="将原生的事件回调给游戏，服务于Unity内视频播放等需求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="JUx5jzB8KOMg5DZ55unH-81">
+          <mxGeometry x="-0.2533" y="-9" relative="1" as="geometry">
+            <mxPoint x="-26" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JUx5jzB8KOMg5DZ55unH-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=25;startArrow=none;startFill=0;strokeColor=default;" edge="1" parent="1" source="JUx5jzB8KOMg5DZ55unH-68" target="JUx5jzB8KOMg5DZ55unH-95">
